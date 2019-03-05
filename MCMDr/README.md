@@ -1,0 +1,2 @@
+# MCMD
+This piece of C++ code reads some dump files which are the output of an atomistic simulation, creates atomic environment boxes for each atom, and relaxes the structures with a hybrid Monte Carlo - Molecular Dynamics scheme. The relaxed structures are aimed to have minimum value for the maximum energy atom in the system with the ultimate goal of applying further Quantum Simulations on the output data as an integral part of Machine Learning potential development.

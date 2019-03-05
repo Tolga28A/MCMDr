@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/util_functions.h
+stdio.h
+-
+iostream
+-
+fstream
+-
+string
+-
+sstream
+-
+vector
+-
+math.h
+-
+iomanip
+-
+dirent.h
+-
+glob.h
+-
+bits/stdc++.h
+-
+armadillo
+-
+
+/home/tolga/Documents/github/cpp_analysis_codes-master/src/util_functions.cpp
+util_functions.h
+/home/tolga/Documents/github/cpp_analysis_codes-master/src/util_functions.h
+

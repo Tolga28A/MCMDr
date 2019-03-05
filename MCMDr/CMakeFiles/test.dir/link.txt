@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -O2   CMakeFiles/test.dir/test.cpp.o CMakeFiles/test.dir/src/mlpack_util.cpp.o CMakeFiles/test.dir/src/monte_carlo.cpp.o CMakeFiles/test.dir/src/sim_box.cpp.o CMakeFiles/test.dir/src/util_functions.cpp.o  -o test -lmlpack -lvoro++ -larmadillo -lgsl 
